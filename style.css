@@ -1,0 +1,60 @@
+body {
+  background-image: url("asset/oso3.jpeg");
+  background-size: cover; /* Opcional, pero recomendado para que la imagen se ajuste al tamaño de la pantalla */
+  background-position: center; /* Opcional, pero recomendado para que la imagen se centre */
+  display: flex; /* Activamos flexbox */
+  justify-content: center; /* Centramos horizontalmente */
+  align-items: center; /* Centramos verticalmente */
+  height: 100vh; /* Establecemos la altura del body en 100% de la pantalla */
+  margin: 0; /* Eliminamos los márgenes del body */
+}
+
+h1 {
+  position: absolute; /* Establecemos el título como posición absoluta */
+  top: 28%; /* Posicionamos el título en el 50% de la altura del body */
+  left: 51%; /* Posicionamos el título en el 50% de la anchura del body */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Corregimos la posición para que quede centrado */
+  text-align: center; /* Centramos el texto del título */
+  color: #000000; /* Establecemos el color del texto del título (opcional) */
+  font-size: 50px; /* Establecemos el tamaño del texto del título (opcional) */
+}
+
+#resultado {
+  position: absolute; /* Establecemos el título como posición absoluta */
+  top: 70%; /* Posicionamos el título en el 50% de la altura del body */
+  left: 51%; /* Posicionamos el título en el 50% de la anchura del body */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Corregimos la posición para que quede centrado */
+  text-align: center; /* Centramos el texto del título */
+  color: #000000; /* Establecemos el color del texto del título (opcional) */
+  font-size: 19px; /* Establecemos el tamaño del texto del título (opcional) */
+  background-color: rgba(
+    77,
+    241,
+    27,
+    0.315
+  ); /* Fondo blanco con 50% de transparencia */
+  padding: 10px; /* Agregamos un poco de padding para que se vea mejor */
+}
+
+label {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif; /* Establecemos el tipo de letra de Label (opcional) */
+  color: #000000; /* Establecemos el color del texto del título (opcional) */
+}
+
+#osoniki {
+  position: absolute; /* Establecemos el título como posición absoluta */
+  top: 20%; /* Posicionamos el título en el 50% de la altura del body */
+  left: 51%; /* Posicionamos el título en el 50% de la anchura del body */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Corregimos la posición para que quede centrado */
+  width: 443px; /* Ancho exacto de 300 píxeles */
+  height: 346px; /* Alto exacto de 200 píxeles */
+}
